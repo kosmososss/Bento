@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Rei',
+	name: 'kosmo',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -28,7 +28,7 @@ const CONFIG = {
 	// Weather
 	weatherKey: '288752458e9b0130f398aa44af330a02', // Write here your API Key
 	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
+	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
@@ -161,20 +161,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Misskey',
+					link: 'https://den.raccoon.quest/',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'Tumblr',
+					link: 'https://www.tumblr.com/',
 				},
 				{
-					name: 'X',
-					link: 'https://www.x.com',
+					name: 'Bluesky',
+					link: 'https://bsky.app/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Backloggd',
+					link: 'https://www.backloggd.com/',
 				},
 			],
 		},
