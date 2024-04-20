@@ -14,7 +14,7 @@ const CONFIG = {
 	name: 'kosmo',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -31,7 +31,7 @@ const CONFIG = {
 	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+	trackLocation: 'true', // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '34.049',
 	defaultLongitude: '74.392',
 
